@@ -18,10 +18,10 @@ agent:
   model:
     # name: "ollama/qwen2.5-coder:7B"
     # api_base: "http://localhost:11434"
-    name: "azure/o3-mini"  # Include deployment name in the model name
-    api_base: "https://swe-lutions-ai-foundry.cognitiveservices.azure.com/"
-    api_key: "${AZURE_OPENAI_API_KEY}"  # Use environment variable for security
-    api_version: "2024-12-01-preview"
+    name: "azure/gpt-4"  
+    api_base: "https://a0163-mb9o4zpc-eastus2.cognitiveservices.azure.com/"
+    api_key: "${AZURE_OPENAI_API_KEY}"
+    api_version: "2025-01-01-preview"
     per_instance_cost_limit: 15
     total_cost_limit: 0
     per_instance_call_limit: 100
